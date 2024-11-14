@@ -1,0 +1,115 @@
+/* Layout styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F5D7DB;
+}
+
+/* Logo image styling */
+.logoImage {
+    width: 120px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .logoImage {
+        width: 90px; /* Smaller size for mobile */
+    }
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.blog-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #6c757d;
+}
+
+.post-content {
+    margin-top: 20px;
+}
+
+.post-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Additional post content styling */
+.post-content h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.post-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+.post-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.read-more-button {
+    align-self: start; /* Adjust position if necessary */
+}
+
+.post-figure {
+    margin: 0;
+    position: relative;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 200px; /* Adjust for desired image height */
+}
+.post-image-story{
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+}
+.post-caption {
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+    padding: 5px;
+    background-color: #f8f8f8; /* Light background for caption */
+}
