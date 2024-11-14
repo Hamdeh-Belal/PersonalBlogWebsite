@@ -1,4 +1,4 @@
-/* Layout styles */
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -13,16 +13,15 @@
     background-color: #F5D7DB;
 }
 
-/* Logo image styling */
+
 .logoImage {
-    width: 120px; /* Adjust size as needed */
+    width: 120px; 
     height: auto;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .logoImage {
-        width: 90px; /* Smaller size for mobile */
+        width: 90px; 
     }
 }
 .logo {
@@ -87,7 +86,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .read-more-button {
-    align-self: start; /* Adjust position if necessary */
+    align-self: start; 
 }
 
 .post-figure {
