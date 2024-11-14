@@ -4,9 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Post Title</title>
-    <link rel="stylesheet" href="static/css/base.css" />
-    <link rel="stylesheet" href="static/css/layout.css" />
-    <link rel="stylesheet" href="static/css/theme.css" />
+    <link rel="stylesheet" href="static/css/main.css" />
   </head>
 
   <body>
@@ -44,11 +42,11 @@
           </figure>
           <h1>Lucy</h1>
           <p class="post-meta">
-            By <strong>Lucy owner</strong> | Published on
+            By <strong>Dr. John Smith</strong> | Published on
             <time datetime="2024-11-9">Nov 9, 2024</time>
           </p>
         </header>
-        <section>
+        <section class="story">
           <p><em>Lady of the Manor</em></p>
           <h2>Story</h2>
           <p>
@@ -78,10 +76,30 @@
           </p>
         </section>
       </article>
+      <section class="author-info">
+        <img
+          src="static/images/pfp.png"
+          alt="Author's Avatar"
+          class="author-avatar"
+        />
+        <div class="author-details">
+          <h3 class="author-name">Dr. John Smith</h3>
+          <p class="author-title">Pet Nutrition Specialist</p>
+          <p class="author-company">Pet Wellness Center</p>
+          <p class="author-bio">
+            Dr. John is a certified nutritionist for pets, dedicated to
+            educating pet owners on balanced diets and supplements.
+          </p>
+          <div class="social-sharing">
+            <a href="https://twitter.com" class="social-link">Twitter</a>
+            <a href="https://www.facebook.com" class="social-link">Facebook</a>
+            <a href="https://www.linkedin.com" class="social-link">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+      <br />
       <a href="index.html" class="read-more">
-        <button type="button" class="read-more-button">
-           Back
-        </button>
+        <button type="button" class="read-more-button">Back</button>
       </a>
     </main>
 

@@ -8,8 +8,17 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
+    font-size: 1rem;
     background-color: bisque;
 }
+
+
+@media (max-width: 768px) {
+  body {
+      font-size: 0.9rem;
+  }
+}
+
 a {
     color: #007bff;
     text-decoration: none;
@@ -17,3 +26,28 @@ a {
 a:hover {
     text-decoration: underline;
 }
+u {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    color: #333;
+  }
+  blockquote {
+    font-style: italic;
+    color: #555;
+    padding: 1em;
+    margin: 1.5em 0;
+    border-left: 4px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  
+  blockquote a {
+    color: #0073e6; 
+    text-decoration: none;
+  }
+  
+  blockquote a:hover {
+    text-decoration: underline;
+  }
+    
